@@ -1,8 +1,13 @@
 ## Keepr
+<img class="img-responsive" src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
 
-Keepr is a social network that allows users to visually share, and discover new interests by posting (known as 'keeping' on Keepr) images or videos to their own or others' collections (i.e. a collection of 'vaults,' usually with a common theme) and browsing what other users have kept. 
+Keepr is a social network that allows users to visually share, and discover new interests by posting (known as 'keeping' on Keepr) images or videos to their own or others' collections (i.e. a collection of 'vaults,' usually with a common theme) and browsing what other users have kept.
 
-### The Setup
+## Goals
+
+In this checkpoint students will demonstrate a working knowledge of building full-stack applications. They will utilize a VueJs frontend implementing the Vuex design and Vue-Router to manage the dom. On the server side students will use the DotNet WebApi for their server implementing the Repository pattern to communicate with the database. In addition students will use bcrypt for password hashing, dapper as an ORM and MySQL as their database. 
+
+## The Setup
 
 Keepr is a typical project where some of the basic layouts have been thought up but it's still missing some key components. The basic idea here is to allow users to post items if they are logged in. They can also browse all of the items (aka keeps) that have been posted without having to login. If any user wants to store a reference to any paticular keep they will store it in the `vault` of their choice. 
 
@@ -61,16 +66,8 @@ What this site is already pretty if you follow the mocks :wink: Make sure the fe
 	- Add Keeps to Vaults
 	- Remove Keeps from Vaults
 
-
-### Deployment Time
-When you are ready to push you site live you can simply run the `npm run build` command within your wwwsrc
-
-This process will take your files from the **wwwsrc** directory and will minify them and put the minified files into your **wwwroot** directory
-
-This happens because of the config settings in  **wwwsrc/vue.config.js** changing the build paths to match the path to wwwroot as opposed to the default 'dist' folder
-
 ### Finished?
-> We only grade the BUILT project. Make sure you test it. When You are finished submit your project to the gradebook and notify your instructor
+> Make sure you test it. When You are finished submit your project to the gradebook and notify your instructor
 
 ### Some inspirational mocks
 
